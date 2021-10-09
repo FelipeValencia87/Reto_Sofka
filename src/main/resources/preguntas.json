@@ -1,0 +1,25 @@
+[
+    {
+        "categoria":1,  
+        "id": 1,
+        "texto": "¿Cuáles son los cinco tipos de sabores primarios?",
+        "respuestas": [
+            {
+                "texto": "dulce, amargo, ácido, salado y umami.",
+                "correcta": true
+            },
+            {
+                "texto": "Amargo y Dulce",
+                "correcta": false
+            },
+            {
+                "texto": "Dulce y Salado",
+                "correcta": false
+            },
+            {
+                "texto": "Dulce, amargo, ácido, salado",
+                "correcta": false
+            }
+        ]
+    }
+]

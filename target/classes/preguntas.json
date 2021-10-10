@@ -21,5 +21,563 @@
                 "correcta": false
             }
         ]
+    },
+    {
+        "categoria":1,  
+        "id": 2,
+        "texto": "¿En qué continente está Ecuador?",
+        "respuestas": [
+            
+            {
+                "texto": "Asia",
+                "correcta": false
+            },
+            {
+                "texto": "América",
+                "correcta": true
+            },
+            {
+                "texto": "Africa",
+                "correcta": false
+            },
+            {
+                "texto": "Norte América",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":1,
+        "id": 3,
+        "texto": "¿Qué tipo de animal es la ballena?",
+        "respuestas": [
+            
+            {
+                "texto": "Pez",
+                "correcta": false
+            },
+            {
+                "texto": "Vertebrado",
+                "correcta": false
+            },
+            {
+                "texto": "Mamífero",
+                "correcta": true
+            },
+            {
+                "texto": "Carnivoro",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":1, 
+        "id": 4,
+        "texto": "¿En qué país se encuentra la torre de Pisa?",
+        "respuestas": [
+            {
+                "texto": "dulce, amargo, ácido, salado y umami.",
+                "correcta": false
+            },
+            {
+                "texto": "Amargo y Dulce",
+                "correcta": false
+            },
+            {
+                "texto": "Italia",
+                "correcta": true
+            },
+            {
+                "texto": "ulce, amargo, ácido, salado",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":1, 
+        "id": 5,
+        "texto": "¿Qué deporte practicaba Michael Jordan?",
+        "respuestas": [
+            {
+                "texto": "Basquetbol",
+                "correcta": true
+            },
+            {
+                "texto": "Beisbol",
+                "correcta": false
+            },
+            {
+                "texto": "Fútbol",
+                "correcta": false
+            },
+            {
+                "texto": "Fútbol Américano",
+                "correcta": false
+            }
+        ]
+    },
+    
+    {
+        "categoria":2, 
+        "id": 6,
+        "texto": "¿Quién es el autor de el Quijote?",
+        "respuestas": [
+            {
+                "texto": "Frida",
+                "correcta": false
+            },
+            {
+                "texto": "Gabriel Garcia Marques",
+                "correcta": false
+            },
+            {
+                "texto": "Saavedra",
+                "correcta": false
+            },
+            {
+                "texto": "Miguel de Cervantes",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":2,
+        "id": 7,
+        "texto": "¿Qué rama de la Biología estudia los animales?",
+        "respuestas": [
+            
+            {
+                "texto": "Biología",
+                "correcta": false
+            },
+            {
+                "texto": "Anatomía",
+                "correcta": false
+            },
+            {
+                "texto": "Analogía",
+                "correcta": false
+            },
+            {
+                "texto": "Zoología",
+                "correcta": true
+            }
+        ]
+    },
+    
+    {
+        "categoria":2,
+        "id": 8,
+        "texto": "Cuál es el nombre de la lengua oficial en china",
+        "respuestas": [
+            {
+                "texto": "Mongol",
+                "correcta": false
+            },
+            {
+                "texto": "Inglés",
+                "correcta": false
+            },
+            {
+                "texto": "Chino",
+                "correcta": false
+            },
+            {
+                "texto": "Mandarín",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":2,
+        "id": 9,
+        "texto": "Quién escribió “Hamlet”",
+        "respuestas": [
+            {
+                "texto": "Miguel de Cervantes",
+                "correcta": false
+            },
+            {
+                "texto": "Edgar Allan Poe",
+                "correcta": false
+            },
+            {
+                "texto": "William Shakespeare",
+                "correcta": true
+            },
+            {
+                "texto": "Julio Cortázar",
+                "correcta": false
+            }
+            
+        ]
+    },
+    {
+        "categoria":2,
+        "id": 10,
+        "texto": "A ___ le crecía la nariz cuando mentía",
+        "respuestas": [
+            {
+                "texto": "Shrek",
+                "correcta": false
+            },
+            {
+                "texto": "El Principe azul",
+                "correcta": false
+            },
+            {
+                "texto": "Blancanieves",
+                "correcta": false
+            },
+            {
+                "texto": "Pinocho",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":3,
+        "id": 11,
+        "texto": "¿Cuándo acabó la II Guerra Mundial?",
+        "respuestas": [
+            {
+                "texto": "1980",
+                "correcta": false
+            },
+            {
+                "texto": "1945",
+                "correcta": true
+            },
+            {
+                "texto": "1940",
+                "correcta": false
+            },
+            {
+                "texto": "1950",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":3,
+        "id": 12,
+        "texto": "¿En qué se especializa la cartografía?",
+        "respuestas": [
+            {
+                "texto": "Es la ciencia que estudia los mapas.",
+                "correcta": true
+            },
+            {
+                "texto": "En realizar cartas",
+                "correcta": false
+            },
+            {
+                "texto": "Aprender a Escribir",
+                "correcta": false
+            },
+            {
+                "texto": "Ninguna de las Anteriores",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":3,
+        "id": 13,
+        "texto": "¿Con qué se fabricaba el pergamino?",
+        "respuestas": [
+            {
+                "texto": "Con papel",
+                "correcta": false
+            },
+            {
+                "texto": "Con la piel de animales",
+                "correcta": true
+            },
+            {
+                "texto": "Se fabricaba con las hojas",
+                "correcta": false
+            },
+            {
+                "texto": "A partir del plástico",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":3,
+        "id": 14,
+        "texto": "¿Cuál es la ciudad de los rascacielos?",
+        "respuestas": [
+            {
+                "texto": "Shangai",
+                "correcta": false
+            },
+            {
+                "texto": "Dubai",
+                "correcta": false
+            },
+            {
+                "texto": "Francia",
+                "correcta": false
+            },
+            {
+                "texto": "New York",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":3,
+        "id": 15,
+        "texto": "¿De qué colores es la bandera de México?",
+        "respuestas": [
+            {
+                "texto": "Shrek",
+                "correcta": false
+            },
+            {
+                "texto": "El Principe azul",
+                "correcta": false
+            },
+            {
+                "texto": "Blancanieves",
+                "correcta": false
+            },
+            {
+                "texto": "Verde, blanco y rojo",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":4,
+        "id": 16,
+        "texto": "¿Cuál fue el primer metal que empleó el hombre?",
+        "respuestas": [
+            {
+                "texto": "Hierro",
+                "correcta": false
+            },
+            {
+                "texto": "El Oro",
+                "correcta": false
+            },
+            {
+                "texto": "Fue la roca",
+                "correcta": false
+            },
+            {
+                "texto": "El Cobre",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":4,
+        "id": 17,
+        "texto": "¿Qué es más pequeño, un átomo o una molécula?",
+        "respuestas": [
+            {
+                "texto": "No hay manera de compararlos",
+                "correcta": false
+            },
+            {
+                "texto": "El Átomo",
+                "correcta": true
+            },
+            {
+                "texto": "La Molécula",
+                "correcta": false
+            },
+            {
+                "texto": "Son Iguales",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":4,
+        "id": 18,
+        "texto": "El triángulo que tiene sus tres lados iguales ¿Cómo se llama?",
+        "respuestas": [
+            {
+                "texto": "Triángulo equilátero",
+                "correcta": true
+            },
+            {
+                "texto": "Triángulo Réctangulo",
+                "correcta": false
+            },
+            {
+                "texto": "Triángulo",
+                "correcta": false
+            },
+            {
+                "texto": "Todos los triángulos tienen lados diferentes",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":4,
+        "id": 19,
+        "texto": "¿Qué enfermedad padeció Stephen Hawking?",
+        "respuestas": [
+            {
+                "texto": "Artritis",
+                "correcta": false
+            },
+            {
+                "texto": "Esclerosis Lateral Amiotrófica (ELA)",
+                "correcta": true
+            },
+            {
+                "texto": "Sida",
+                "correcta": false
+            },
+            {
+                "texto": "Alzheimer",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":4,
+        "id": 20,
+        "texto": "¿En qué año se produce la Revolución Francesa?",
+        "respuestas": [
+            {
+                "texto": "2000",
+                "correcta": false
+            },
+            {
+                "texto": "1945",
+                "correcta": false
+            },
+            {
+                "texto": "1800",
+                "correcta": false
+            },
+            {
+                "texto": "1789",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":5,
+        "id": 21,
+        "texto": "¿De qué país es originario el café?",
+        "respuestas": [
+            {
+                "texto": "Colombia",
+                "correcta": false
+            },
+            {
+                "texto": "Brasil",
+                "correcta": false
+            },
+            {
+                "texto": "Guatemala",
+                "correcta": false
+            },
+            {
+                "texto": "Etiopía",
+                "correcta": true
+            }
+        ]
+    },
+    {
+        "categoria":5,
+        "id": 22,
+        "texto": "¿En qué año se inicia la Revolución Rusa?",
+        "respuestas": [
+            {
+                "texto": "1917",
+                "correcta": true
+            },
+            {
+                "texto": "1945",
+                "correcta": false
+            },
+            {
+                "texto": "1950",
+                "correcta": false
+            },
+            {
+                "texto": "1789",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":5,
+        "id": 23,
+        "texto": "¿Quién cantaba la canción “Hey Jude”?",
+        "respuestas": [
+            {
+                "texto": "Queen",
+                "correcta": false
+            },
+            {
+                "texto": "The Beatles",
+                "correcta": true
+            },
+            {
+                "texto": "Elvis Presley",
+                "correcta": false
+            },
+            {
+                "texto": "John Lenon",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":5,
+        "id": 24,
+        "texto": "¿En qué país se encuentra el rascacielos más alto del mundo?",
+        "respuestas": [
+            {
+                "texto": "Dubai",
+                "correcta": true
+            },
+            {
+                "texto": "New York",
+                "correcta": false
+            },
+            {
+                "texto": "Tokio",
+                "correcta": false
+            },
+            {
+                "texto": "Roma",
+                "correcta": false
+            }
+        ]
+    },
+    {
+        "categoria":5,
+        "id": 25,
+        "texto": "¿Qué miembro de los Beatles compuso Yesterday",
+        "respuestas": [
+            {
+                "texto": "Pete Best",
+                "correcta": false
+            },
+            {
+                "texto": "Paul McCartney",
+                "correcta": true
+            },
+            {
+                "texto": "Ringo Star",
+                "correcta": false
+            },
+            {
+                "texto": "John Lennon",
+                "correcta": true
+            }
+        ]
     }
 ]

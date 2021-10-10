@@ -1,4 +1,4 @@
-package com.reto.sofka.reto;
+package com.reto.sofka.retosofka.carga;
 
 import com.reto.sofka.retosofka.classes.Categoria;
 import com.reto.sofka.retosofka.classes.Pregunta;
@@ -8,10 +8,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class RetoSofka {
+public class CargaJuego {
     
-    public static void main(String[] args) throws IOException {
-        final String ANSI_RED = "\u001B[31m";
+    public static void cargarJuego() throws IOException{
+        
+         final String ANSI_RED = "\u001B[31m";
         Scanner entrada = new Scanner(System.in);
         PreguntasRespuestas ronda = new PreguntasRespuestas(); 
         ArrayList<Usuario> participantes = new ArrayList<>();
@@ -63,8 +64,6 @@ public class RetoSofka {
             
             
         } while (band ==1 && it < 6);
-        
-//        participante.guardarInfo();
     }
     
 }

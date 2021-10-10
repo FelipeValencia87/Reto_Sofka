@@ -43,8 +43,17 @@ public class Juego {
                     opcionCorrecta = i+1;
                 }
             }
+            
+            
             System.out.println("\nSeleccione la opción correcta: ");
             opc = entrada.nextInt();
+            
+            while (opc < 0 || opc > 4) {
+                System.out.println("Indique una opción valida, entre 1 y 4");
+                opc= entrada.nextInt();
+            }
+            
+            
             
             if (opc == opcionCorrecta) {
                 System.out.println("\nFelicitaciones, Acertaste");
@@ -53,18 +62,36 @@ public class Juego {
             }else{
                 System.out.println("¡¡Lo lamento!!, te quivocaste y perdiste todo");
                 participante.setPremio(0);
-                System.out.println("Premio Acumulado: $" + participante.getPremio()+" USD\n");
+                System.out.println("Quedaste con: $" + participante.getPremio()+" USD\n");
                 break;
             }
             
             
             it++;
             
+            if (it == 5) {
+                System.out.println("\t\n¡¡Felicitaciones!! Respondiste todas las preguntas");
+                System.out.println("Ganaste un total de: $" + participante.getPremio()+" USD\n");
+                break;
+            }
+            
+            
             System.out.println("¿Digite 1 si quiere seguir jugando o 2 para retirarse y quedarse con el premio");
             band = entrada.nextInt();
+            
+            while (band < 0 || band > 2) {
+                System.out.println("Indique una opción valida, 1 o 2");
+                band= entrada.nextInt();
+            }
+            
+            if (band==2) {
+                System.out.println("Gracias por participar, no respondiste todas las preguntas "
+                        + "pero ganaste un total de: $" + participante.getPremio()+" USD\n");
+                break;
+            }
             System.out.println("------------------------------------");
             
-        } while (band ==1 && it < 5);
+        } while ( it < 5);
     }
     
 }

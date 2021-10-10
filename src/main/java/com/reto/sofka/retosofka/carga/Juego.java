@@ -8,11 +8,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class CargaJuego {
+public class Juego {
     
-    public static void cargarJuego() throws IOException{
+    public static void cargar() throws IOException{
         
-         final String ANSI_RED = "\u001B[31m";
+         
         Scanner entrada = new Scanner(System.in);
         PreguntasRespuestas ronda = new PreguntasRespuestas(); 
         ArrayList<Usuario> participantes = new ArrayList<>();
@@ -30,7 +30,7 @@ public class CargaJuego {
         
         do {         
             
-            System.out.println(ANSI_RED +"\t\tRonda #"+ categorias.get(it).getId() );
+            System.out.println("\t\tRonda #"+ categorias.get(it).getId() );
             System.out.println("\t***Premio de $"+ categorias.get(it).getPremio() +" USD***\n" );
             
             Pregunta pregunta = categorias.get(it).seleccionarPregunta();
@@ -38,32 +38,33 @@ public class CargaJuego {
             
             for (int i = 0; i < pregunta.getRespuestas().size(); i++) {
                 
-                System.out.println((i+1)+") "+ pregunta.getRespuestas().get(i).getTexto());
+                System.out.println("\t"+(i+1)+") "+ pregunta.getRespuestas().get(i).getTexto());
                 if (pregunta.getRespuestas().get(i).isCorrecta()) {
                     opcionCorrecta = i+1;
                 }
             }
-            System.out.println("Seleccioné la opción correcta: ");
+            System.out.println("\nSeleccione la opción correcta: ");
             opc = entrada.nextInt();
             
             if (opc == opcionCorrecta) {
-                System.out.println("Felicitaciones, ");
+                System.out.println("\nFelicitaciones, Acertaste");
                 participante.acumularPremio(categorias.get(it).getPremio());            
-                System.out.println("Premio Acumulado: $" + participante.getPremio()+" USD\n");
+                System.out.println("Tienes un Premio Acumulado de: $" + participante.getPremio()+" USD\n");
             }else{
-                System.out.println("Perdiste todo");
+                System.out.println("¡¡Lo lamento!!, te quivocaste y perdiste todo");
+                participante.setPremio(0);
+                System.out.println("Premio Acumulado: $" + participante.getPremio()+" USD\n");
                 break;
             }
             
             
-            
-            
-            System.out.println("¿Digite 1 para continuar, 2 para retirarse");
-            band = entrada.nextInt();
             it++;
             
+            System.out.println("¿Digite 1 si quiere seguir jugando o 2 para retirarse y quedarse con el premio");
+            band = entrada.nextInt();
+            System.out.println("------------------------------------");
             
-        } while (band ==1 && it < 6);
+        } while (band ==1 && it < 5);
     }
     
 }

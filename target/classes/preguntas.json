@@ -76,11 +76,11 @@
         "texto": "¿En qué país se encuentra la torre de Pisa?",
         "respuestas": [
             {
-                "texto": "dulce, amargo, ácido, salado y umami.",
+                "texto": "Paris",
                 "correcta": false
             },
             {
-                "texto": "Amargo y Dulce",
+                "texto": "Medellín",
                 "correcta": false
             },
             {
@@ -88,7 +88,7 @@
                 "correcta": true
             },
             {
-                "texto": "ulce, amargo, ácido, salado",
+                "texto": "Roma",
                 "correcta": false
             }
         ]

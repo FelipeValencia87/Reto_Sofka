@@ -92,6 +92,8 @@ public class Juego {
             System.out.println("------------------------------------");
             
         } while ( it < 5);
+        System.out.println("Guardando información de participante......");
+        participante.guardarInfo();
     }
     
 }

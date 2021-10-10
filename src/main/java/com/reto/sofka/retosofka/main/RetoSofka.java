@@ -9,7 +9,7 @@ public class RetoSofka {
         final String ANSI_RED = "\u001B[31m";
         System.out.println(ANSI_RED +"\t*** Quién Quiere Ser Millonario ***\n");
         Juego.cargar();
-//        participante.guardarInfo();
+        
     }
     
 }
